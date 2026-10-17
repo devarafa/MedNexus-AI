@@ -70,7 +70,7 @@ The period-by-period schedule is a provisional proposal. See the [Project Plan](
 | **Literature Review** | Preliminary references, feedback and evaluation, suggested improvements, grading criteria | [docs/Literature-Review](mednexus-ai-docs-en-updated/mednexus-en/docs/Literature-Review/README.md) |
 | **Requirements Gathering** | Stakeholders, user stories and use cases, functional and non-functional requirements | [docs/Requirements-Gathering](mednexus-ai-docs-en-updated/mednexus-en/docs/Requirements-Gathering/README.md) |
 
-### Quick Links
+<!-- ### Quick Links
 
 - [Project Proposal](new/Planning/01-project-proposal.md)
 - [Project Plan, Timeline, and Gantt Chart](new/Planning/02-project-plan.md)
@@ -83,7 +83,7 @@ The period-by-period schedule is a provisional proposal. See the [Project Plan](
 - [Functional Requirements](mednexus-ai-docs-en-updated/mednexus-en/docs/Requirements-Gathering/functional-requirements.md)
 - [Non-Functional Requirements](mednexus-ai-docs-en-updated/mednexus-en/docs/Requirements-Gathering/non-functional-requirements.md)
 
----
+--- -->
 
 ## Team
 
