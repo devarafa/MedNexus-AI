@@ -45,7 +45,7 @@
 
 ## 5. Task Matrix
 
-Tasks follow the phases in the [Project Plan](new/Planning/02-project-plan.md). Fill in the member columns once assignments are agreed.
+Tasks follow the phases in the [Project Plan](Docs/Planning/Project-plan.md). Fill in the member columns once assignments are agreed.
 
 > **L** = lead, **S** = support, **A** = all members.
 
