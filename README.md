@@ -71,7 +71,7 @@ The period-by-period schedule is a provisional proposal. See the Project Plan
 
 | Section                    | Files                              |
 | -------------------------- | ---------------------------------- |
-| **Planning**               | Proposal, Plan, Roles, Risks, KPIs |
+| **Planning**               | [Proposal](Docs/Planning/01-Project-proposal.md), [Plan](Docs/Planning/02-project-plan.md), [Team Roles](Docs/Planning/03-team-roles-and-task-assignment.md), [Risks](Docs/Planning/04-risk-assessment.md), [KPIs](Docs/Planning/05-kpis.md) [Open Decisions](Docs/Planning/06-assumptions-and-open-decisions.md)|
 | **Literature Review**      | docs                               |
 | **Requirements Gathering** | docs                               |
 | API Documentation          |                                    |
