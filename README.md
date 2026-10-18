@@ -29,7 +29,7 @@ The project is developed as part of the **Digital Egypt Pioneers Initiative (DEP
 - Renad walid elsaqa 
 - Hanen Hany Nageh
 
-Roles and responsibilities: [Task Assignment & Roles](Docs/Planning/03-team-roles-and-task-assignment.md)
+Roles and responsibilities: [Task Assignment & Roles](Docs/Planning/Task-Assignment-and-Roles.md)
 
 ### Planned Features
 
@@ -65,17 +65,14 @@ Roles and responsibilities: [Task Assignment & Roles](Docs/Planning/03-team-rol
 The period-by-period schedule is a provisional proposal. See the Project Plan
 
 ---
-
 ## Documentation Navigation
 
-| Section                    | Files                              |
-| -------------------------- | ---------------------------------- |
-| **Planning**               | [Proposal](Docs/Planning/01-Project-proposal.md), [Plan](Docs/Planning/02-project-plan.md), [Team Roles](Docs/Planning/03-team-roles-and-task-assignment.md), [Risks](Docs/Planning/04-risk-assessment.md), [KPIs](Docs/Planning/05-kpis.md) [Open Decisions](Docs/Planning/06-assumptions-and-open-decisions.md)|
-| **Literature Review**      | docs                               |
-| **Requirements Gathering** | docs                               |
-| API Documentation          |                                    |
-
-
+| Section | Files |
+|---|---|
+| **Planning** | [Project Proposal](Docs/Planning/Project-proposal.md), [Project Plan](Docs/Planning/Project-plan.md), [Task Assignment & Roles](Docs/Planning/Task-Assignment-and-Roles.md), [Risk Assessment](Docs/Planning/Risk-assessment-and-Mitigation-plan.md), [Key Performance Indicators](Docs/Planning/KPIs.md), [Assumptions & Open Decisions](Docs/Planning/Assumptions-and-open-decisions.md) |
+| **Literature Review** | [Literature Review](Docs/Literature%20Review/Literature%20Review.md), [Final Grading Criteria](Docs/Literature%20Review/Final-Grading-Criteria.md), [Feedback & Evaluation](Docs/Literature%20Review/Feedback-and-Evaluation.md) |
+| **Requirements Gathering** | [Stakeholder Analysis](Docs/Requirements-Gathering/stakeholder-analysis.md), [User Stories & Use Cases](Docs/Requirements-Gathering/user-stories-and-use-cases.md), [Functional Requirements](Docs/Requirements-Gathering/functional-requirements.md), [Non-Functional Requirements](Docs/Requirements-Gathering/non-functional-requirements.md), [Requirements Overview](Docs/Requirements-Gathering/Requirements.md), [Assumptions & Open Decisions](Docs/Requirements-Gathering/Assumptions%20and%20Open%20Decisions.md) |
+| **API Documentation** | [API References](Docs/API%20References.md) |
 
 ---
 
