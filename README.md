@@ -21,16 +21,15 @@ The project is developed as part of the **Digital Egypt Pioneers Initiative (DEP
 | Project name | MedNexus AI                                                                                                                                                                                    |
 | Team members | [Mohamed Arafa ](https://github.com/devarafa), [Menna Abdelkreem](https://github.com/menna-abdelkreem), [Renad Walid](https://github.com/renad76) , [Hanen Hany](https://github.com/HanenHany) |
 
-
-## Team
 ---
+## Team
 
 - Mohamed Abdalla Arafa 
 - Mennatallah Mosaad AbdElkreem
 - Renad walid elsaqa 
 - Hanen Hany Nageh
 
-Roles and responsibilities: [Task Assignment & Roles](docs/Planning/03-team-roles-and-task-assignment.md)
+Roles and responsibilities: [Task Assignment & Roles](Docs/Planning/03-team-roles-and-task-assignment.md)
 
 ### Planned Features
 
