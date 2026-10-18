@@ -4,7 +4,7 @@
 
 ## Status
 
-**Current status: Preliminary research stage.**
+**Current status: Preliminary research completed; further review and validation are ongoing.**
 
 The literature review has not yet been completed. The resources listed below are preliminary technical references identified in the approved project proposal.
 
