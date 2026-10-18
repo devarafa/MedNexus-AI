@@ -19,7 +19,7 @@ The project is developed as part of the **Digital Egypt Pioneers Initiative (DEP
 | Project type | AI-powered web application                                                                                                                                                                     |
 | Domain       | Healthcare technology, artificial intelligence, and medical education                                                                                                                          |
 | Project name | MedNexus AI                                                                                                                                                                                    |
-| Team members | [Mohamed Arafa ](https://github.com/devarafa), [Menna Abdelkreem](https://github.com/menna-abdelkreem), [Renad Walid](https://github.com/renad76) , [Hanen Hany](https://github.com/HanenHany) |
+| Team members | [Mohamed Arafa ](https://github.com/devarafa), [Mennatallah Abdelkreem](https://github.com/menna-abdelkreem), [Renad Walid](https://github.com/renad76) , [Hanen Hany](https://github.com/HanenHany) |
 
 ---
 ## Team
