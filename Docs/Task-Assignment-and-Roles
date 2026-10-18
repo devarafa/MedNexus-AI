@@ -1,4 +1,4 @@
-# Team Roles and Task Assignment
+# Task-Assignment-and-Roles
 
 ## 1. Principles
 
@@ -34,7 +34,7 @@
 
 | Responsibility       | Details                                                                   |
 | -------------------- | ------------------------------------------------------------------------- |
-| Meetings             | Team meetings to review progress and update tasks (frequency not decided) |
+| Meetings             | Team meetings to review progress and update tasks |
 | Code review          | Pull requests reviewed by at least one other member                       |
 | Testing              | Members try the platform's features before final delivery                 |
 | Documentation        | Each member documents the part they build                                 |
@@ -79,12 +79,4 @@ Tasks follow the phases in the [Project Plan](new/Planning/02-project-plan.md). 
 3. Use short, clear commit messages.
 4. Track tasks with a tool the team chooses (not decided).
 5. Never commit API keys or secrets.
-
----
-
-## 7. Adjusting the Assignment
-
-- Review assignments whenever skills or availability change.
-- Record changes in [Assumptions and Open Decisions](new/Planning/06-assumptions-and-open-decisions.md).
-- Replace placeholders with real names here and in the root README once the team agrees.
 
