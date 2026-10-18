@@ -80,7 +80,7 @@ To develop an accessible, AI-assisted medical knowledge platform that helps user
 
 ## 6. Target Users
 
-The platform initially focuses on **educational and informational use**, not professional clinical workflows. See [Stakeholder Analysis](mednexus-ai-docs-en-updated/mednexus-en/docs/Requirements-Gathering/stakeholder-analysis.md).
+The platform initially focuses on **educational and informational use**, not professional clinical workflows.
 
 - Medical students seeking to understand medical terminology and scientific concepts.
 - Healthcare-related students who need accessible educational resources.
@@ -100,7 +100,7 @@ The platform initially focuses on **educational and informational use**, not pro
 | **B. Bilingual medical explanation** | Original definition, simplified English explanation, Arabic explanation, explanation of key technical terms, related examples (when source-supported), references and limitations. The model is instructed to separate source-supported information from additional explanation.                                | Planned      |
 | **C. Medical research explorer**     | PubMed search showing title, authors, publication date, journal, abstract, PMID or other identifiers, DOI, link to the original record, and an AI-assisted abstract explanation when supported by the source text. The system does not assume every article has a complete abstract or open full text.          | Planned      |
 | **D. General health information**    | Educational health information, initially from MedlinePlus Web Services: topic title, summary, educational information, source link, AI-assisted explanation where appropriate.                                                                                                                                 | Planned      |
-| **E. Experimental X-ray analysis**   | Feasibility investigation following the workflow in [Assumptions and Open Decisions](new/Planning/06-assumptions-and-open-decisions.md#4-x-ray-feasibility-outcomes). No model is selected or validated at this stage. If no suitable model is found, findings are documented and the other features continue independently. | Experimental |
+| **E. Experimental X-ray analysis**   | Feasibility investigation following the workflow in Assumptions and Open Decisions. No model is selected or validated at this stage. If no suitable model is found, findings are documented and the other features continue independently. | Experimental |
 | **F. Source attribution and safety** | Source links, distinction between retrieved and generated content, no presenting of generated text as verified fact, handling of unavailable sources and failed requests, educational-use disclaimer.                                                                                                           | Planned      |
 
 ### 7.2 Out of Scope
@@ -142,7 +142,7 @@ These may be reconsidered in future research but are not part of the initial com
 | 30 November 2026 | Source code on GitHub, README and documentation, application online or as suitable executables | Confirmed |
 | 4 December 2026 | Presentation | Confirmed |
 
-The period-by-period schedule is in the [Project Plan](new/Planning/02-project-plan.md).
+The period-by-period schedule is in the Project Plan.
 
 ---
 

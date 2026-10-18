@@ -86,7 +86,7 @@ gantt
 | M2 | Analysis and design delivery | **6 Nov** | Software Architecture, Database Design, System Diagram, UI/UX Design submitted | Confirmed deadline |
 | M3 | Initial working application | 13 Nov | Initial application with medical search | Proposed |
 | M4 | Research explorer and AI explanation workflow | 20 Nov | PubMed search and explanation workflow working | Proposed |
-| M5 | X-ray decision point and refined core application | 26 Nov | X-ray outcome decided (see [feasibility outcomes](new/Planning/06-assumptions-and-open-decisions.md#4-x-ray-feasibility-outcomes)); refined core application | Proposed |
+| M5 | X-ray decision point and refined core application | 26 Nov | X-ray outcome decided; refined core application | Proposed |
 | M6 | Final delivery | **30 Nov** | Source code on GitHub, README and documentation, application online or as suitable executables | Confirmed deadline |
 | M7 | Presentation | **4 Dec** | Final report, presentation, and demonstration | Confirmed deadline |
 
@@ -103,7 +103,7 @@ gantt
 | D5  | Initial source selection                                                     | Research and Feasibility       |                        |                                                                                                                                                                             |
 | D6  | X-ray feasibility report                                                     | Research and Feasibility       |                        |                                                                                                                                                                             |
 | D7  | System architecture diagram / Software Architecture                          | System Design                  | 6 Nov                  | Confirmed deadline                                                                                                                                                          |
-| D8  | Database Design                                                              | System Design                  | 6 Nov                  | Confirmed deadline; content depends on the [database decision](new/Planning/06-assumptions-and-open-decisions.md#3-open-decisions) |
+| D8  | Database Design                                                              | System Design                  | 6 Nov                  | Confirmed        |
 | D9  | System Diagram                                                               | System Design                  | 6 Nov                  | Confirmed deadline                                                                                                                                                          |
 | D10 | UI/UX designs                                                                | System Design                  | 6 Nov                  | Confirmed deadline                                                                                                                                                          |
 | D11 | API integration plan                                                         | System Design                  | By 6 Nov (provisional) |                                                                                                                                                                             |
@@ -153,7 +153,7 @@ gantt
 ## 7. Scope and Change Control (Proposed)
 
 1. New features are discussed in a team meeting and weighed against the remaining time before being added.
-2. Decisions are recorded in [Assumptions and Open Decisions](new/Planning/06-assumptions-and-open-decisions.md).
+2. Decisions are recorded in Assumptions and Open Decisions.
 3. If the experimental X-ray investigation needs more time, the core platform features are prioritized.
 
 ---
