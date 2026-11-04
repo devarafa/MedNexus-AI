@@ -1,0 +1,31 @@
+@startuml
+title MedNexus AI - Software Architecture
+
+skinparam componentStyle rectangle
+
+actor User
+
+package "Presentation Layer" {
+    [React Frontend] as Frontend
+}
+
+package "Application Layer" {
+    [Node.js / Express Backend] as Backend
+}
+
+package "External Services" {
+    [NCBI MeSH API] as MeSH
+    [PubMed E-utilities] as PubMed
+    [MedlinePlus Web Service] as MedlinePlus
+    [Gemini API] as Gemini
+}
+
+User --> Frontend
+Frontend --> Backend : HTTP Requests
+
+Backend --> MeSH : Medical Term Search
+Backend --> PubMed : Research Search
+Backend --> MedlinePlus : Health Information
+Backend --> Gemini : AI Explanation
+
+@enduml
