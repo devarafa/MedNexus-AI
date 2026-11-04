@@ -1,0 +1,18 @@
+@startuml
+title MedNexus AI - Medical Term Search
+
+actor User
+participant "React Frontend" as Frontend
+participant "Node.js / Express" as Backend
+participant "NCBI MeSH API" as MeSH
+
+User -> Frontend : Enter medical term
+Frontend -> Backend : Send search request
+Backend -> MeSH : Search medical term
+MeSH --> Backend : Return term identifiers
+Backend -> MeSH : Retrieve term details
+MeSH --> Backend : Return term details
+Backend --> Frontend : Return search results
+Frontend --> User : Display term information
+
+@enduml
