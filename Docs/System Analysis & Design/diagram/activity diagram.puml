@@ -1,0 +1,33 @@
+@startuml
+title MedNexus AI - Activity Diagram
+
+start
+
+:User opens MedNexus AI;
+
+:Enter search query;
+
+if (Select search type?) then (Medical Term)
+    :Search NCBI MeSH;
+    :Retrieve term information;
+
+elseif (Research)
+    :Search PubMed;
+    :Retrieve publication details;
+
+else (Health Information)
+    :Search MedlinePlus;
+    :Retrieve health information;
+endif
+
+if (Request AI explanation?) then (Yes)
+    :Send retrieved information to Gemini;
+    :Generate bilingual explanation;
+endif
+
+:Display results and original sources;
+
+:Show educational disclaimer;
+
+stop
+@enduml
