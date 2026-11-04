@@ -1,0 +1,21 @@
+@startuml
+title MedNexus AI - AI Medical Explanation
+
+actor User
+participant "React Frontend" as Frontend
+participant "Node.js / Express" as Backend
+participant "NCBI MeSH API" as MeSH
+participant "Gemini API" as Gemini
+
+User -> Frontend : Request explanation
+Frontend -> Backend : Send term and language
+Backend -> MeSH : Retrieve medical information
+MeSH --> Backend : Return term details
+
+Backend -> Gemini : Send context and explanation request
+Gemini --> Backend : Return AI-generated explanation
+
+Backend --> Frontend : Return explanation and source
+Frontend --> User : Display explanation and source
+
+@enduml
