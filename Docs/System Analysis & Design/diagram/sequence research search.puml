@@ -1,0 +1,23 @@
+@startuml
+title MedNexus AI - PubMed Research Search
+
+actor User
+participant "React Frontend" as Frontend
+participant "Node.js / Express" as Backend
+participant "PubMed E-utilities" as PubMed
+
+User -> Frontend : Enter research query
+Frontend -> Backend : Send search request
+Backend -> PubMed : Search publications (ESearch)
+PubMed --> Backend : Return publication IDs
+
+Backend -> PubMed : Retrieve publication details (ESummary)
+PubMed --> Backend : Return metadata
+
+Backend -> PubMed : Retrieve abstract (EFetch)
+PubMed --> Backend : Return abstract if available
+
+Backend --> Frontend : Return research results
+Frontend --> User : Display publications and abstracts
+
+@enduml
