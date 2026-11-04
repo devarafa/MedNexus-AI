@@ -1,0 +1,31 @@
+@startuml
+title MedNexus AI - State Diagram
+
+[*] --> Idle
+
+Idle --> QueryEntered : User enters query
+
+QueryEntered --> Processing : Submit search
+
+Processing --> RetrievingData : Valid query
+
+Processing --> Error : Invalid query
+
+RetrievingData --> GeneratingExplanation : AI explanation requested
+
+RetrievingData --> ResultsReady : Explanation not requested
+
+GeneratingExplanation --> ResultsReady : Explanation generated
+
+GeneratingExplanation --> Error : AI service unavailable
+
+RetrievingData --> Error : External API unavailable
+
+ResultsReady --> Idle : New search
+
+Error --> Idle : Retry search
+
+ResultsReady --> [*]
+Error --> [*]
+
+@enduml
