@@ -1,0 +1,29 @@
+@startuml
+title MedNexus AI - Context Diagram (DFD Level 0)
+
+left to right direction
+
+rectangle "User" as User
+rectangle "NCBI MeSH API" as MeSH
+rectangle "PubMed API" as PubMed
+rectangle "MedlinePlus API" as MedlinePlus
+rectangle "Gemini API" as Gemini
+
+usecase "MedNexus AI System" as System
+
+User --> System : Search Queries\nLanguage Selection
+System --> User : Medical Terms\nResearch Results\nHealth Information\nAI Explanations\nSource Links
+
+System --> MeSH : Medical Term Query
+MeSH --> System : Term Details\nSynonyms
+
+System --> PubMed : Research Query
+PubMed --> System : Publication Metadata\nAbstracts
+
+System --> MedlinePlus : Health Topic Query
+MedlinePlus --> System : Health Information
+
+System --> Gemini : Retrieved Context\nExplanation Request
+Gemini --> System : AI-Generated Explanation
+
+@enduml
