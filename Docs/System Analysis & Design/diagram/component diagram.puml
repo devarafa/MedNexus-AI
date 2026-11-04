@@ -1,0 +1,33 @@
+@startuml
+title MedNexus AI - Component Diagram
+
+skinparam componentStyle rectangle
+
+package "MedNexus AI" {
+
+    [React Frontend] as Frontend
+
+    package "Node.js / Express Backend" {
+        [Search Module] as Search
+        [AI Explanation Module] as AI
+        [API Integration Module] as API
+    }
+}
+
+component "NCBI MeSH API" as MeSH
+component "PubMed E-utilities" as PubMed
+component "MedlinePlus Web Service" as MedlinePlus
+component "Gemini API" as Gemini
+
+Frontend --> Search : HTTP Requests
+
+Search --> API : Search Requests
+Search --> AI : Explanation Requests
+
+API --> MeSH
+API --> PubMed
+API --> MedlinePlus
+
+AI --> Gemini
+
+@enduml
