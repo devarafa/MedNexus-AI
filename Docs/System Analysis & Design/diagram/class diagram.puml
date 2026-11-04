@@ -1,0 +1,69 @@
+@startuml
+title MedNexus AI - Class Diagram
+
+class SearchController {
+    +searchMedicalTerm()
+    +searchResearch()
+    +searchHealthInformation()
+    +requestExplanation()
+}
+
+class SearchRequest {
+    +query: String
+    +language: String
+    +searchType: String
+}
+
+class SearchResult {
+    +results
+    +sourceLink: String
+}
+
+class MedicalTerm {
+    +termName: String
+    +definition: String
+    +synonyms: List
+}
+
+class Publication {
+    +title: String
+    +authors: String
+    +abstract: String
+    +pubmedId: String
+}
+
+class HealthInformation {
+    +title: String
+    +description: String
+    +sourceLink: String
+}
+
+class AIExplanation {
+    +content: String
+    +language: String
+}
+
+class MeSHService
+class PubMedService
+class MedlinePlusService
+class GeminiService
+
+SearchController --> SearchRequest
+SearchController --> MeSHService
+SearchController --> PubMedService
+SearchController --> MedlinePlusService
+SearchController --> GeminiService
+
+MeSHService --> MedicalTerm
+PubMedService --> Publication
+MedlinePlusService --> HealthInformation
+
+GeminiService --> AIExplanation
+
+SearchController --> SearchResult
+SearchResult o-- MedicalTerm
+SearchResult o-- Publication
+SearchResult o-- HealthInformation
+SearchResult o-- AIExplanation
+
+@enduml
