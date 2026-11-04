@@ -1,0 +1,35 @@
+@startuml
+title MedNexus AI - Deployment Diagram
+
+node "User Device" {
+    artifact "Web Browser" as Browser
+    artifact "React Frontend" as Frontend
+}
+
+node "Backend Server" {
+    artifact "Node.js / Express Application" as Backend
+}
+
+cloud "External Services" {
+    node "NCBI Servers" {
+        artifact "MeSH API" as MeSH
+        artifact "PubMed E-utilities" as PubMed
+    }
+
+    node "MedlinePlus Servers" {
+        artifact "MedlinePlus Web Service" as MedlinePlus
+    }
+
+    node "Google AI Servers" {
+        artifact "Gemini API" as Gemini
+    }
+}
+
+Browser --> Frontend
+Frontend --> Backend : HTTPS
+Backend --> MeSH : HTTPS
+Backend --> PubMed : HTTPS
+Backend --> MedlinePlus : HTTPS
+Backend --> Gemini : HTTPS
+
+@enduml
