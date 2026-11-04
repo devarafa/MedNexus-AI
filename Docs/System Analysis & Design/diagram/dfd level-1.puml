@@ -1,0 +1,48 @@
+@startuml
+title MedNexus AI - DFD Level 1
+
+left to right direction
+
+rectangle "User" as User
+
+rectangle "1.0\nReceive User Query" as P1
+rectangle "2.0\nProcess Medical Search" as P2
+rectangle "3.0\nRetrieve Research" as P3
+rectangle "4.0\nRetrieve Health Information" as P4
+rectangle "5.0\nGenerate AI Explanation" as P5
+rectangle "6.0\nDisplay Results & Sources" as P6
+
+rectangle "NCBI MeSH API" as MeSH
+rectangle "PubMed API" as PubMed
+rectangle "MedlinePlus API" as MedlinePlus
+rectangle "Gemini API" as Gemini
+
+User --> P1 : Search Query
+P1 --> P2 : Medical Term Query
+P1 --> P3 : Research Query
+P1 --> P4 : Health Topic Query
+
+P2 --> MeSH : Term Search
+MeSH --> P2 : Term Details
+
+P3 --> PubMed : Research Search
+PubMed --> P3 : Publications & Abstracts
+
+P4 --> MedlinePlus : Health Topic Search
+MedlinePlus --> P4 : Health Information
+
+P2 --> P5 : Retrieved Term Information
+P3 --> P5 : Abstract (if requested)
+P4 --> P5 : Health Information (if requested)
+
+P5 --> Gemini : Context & Explanation Request
+Gemini --> P5 : Generated Explanation
+
+P2 --> P6 : Term Results
+P3 --> P6 : Research Results
+P4 --> P6 : Health Results
+P5 --> P6 : AI Explanation
+
+P6 --> User : Results & Source Links
+
+@enduml
