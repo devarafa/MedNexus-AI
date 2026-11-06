@@ -73,6 +73,8 @@ The period-by-period schedule is a provisional proposal. See the Project Plan
 | **Literature Review** | [Literature Review](Docs/Literature%20Review/Literature%20Review.md), [Final Grading Criteria](Docs/Literature%20Review/Final-Grading-Criteria.md), [Feedback & Evaluation](Docs/Literature%20Review/Feedback-and-Evaluation.md) |
 | **Requirements Gathering** | [Stakeholder Analysis](Docs/Requirements-Gathering/stakeholder-analysis.md), [User Stories & Use Cases](Docs/Requirements-Gathering/user-stories-and-use-cases.md), [Functional Requirements](Docs/Requirements-Gathering/functional-requirements.md), [Non-Functional Requirements](Docs/Requirements-Gathering/non-functional-requirements.md), [Requirements Overview](Docs/Requirements-Gathering/Requirements.md), [Assumptions & Open Decisions](Docs/Requirements-Gathering/Assumptions%20and%20Open%20Decisions.md) |
 | **API Documentation** | [API References](Docs/API%20References.md) |
+| **diagram** | [diagram](Docs/System%20Analysis%20&%20Design/diagram) |
+| **design** | [design](Docs/System%20Analysis%20&%20Design/design) |
 
 ---
 
